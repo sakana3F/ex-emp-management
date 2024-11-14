@@ -2,8 +2,11 @@ package com.example.form;
 
 /**
  * @author harasawakana
- * 
  */
+
+ /**
+  * 管理者登録時に使⽤するフォーム
+  */
 
 public class InsertAdministratorForm {
     /**名前 */

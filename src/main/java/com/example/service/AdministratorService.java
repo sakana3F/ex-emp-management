@@ -34,15 +34,4 @@ public class AdministratorService {
         repository.insert(administrator);
     }
 
-    // public List<Employee> findAll() {
-    //     return repository.findAll();
-    // }
-
-    // public Employee load(Integer id) {
-    //     return repository.load(id);
-    // }
-
-    // public Employee update() {
-    //     return repository.update();
-    // }
 }

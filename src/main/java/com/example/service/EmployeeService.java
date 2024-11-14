@@ -25,4 +25,18 @@ public class EmployeeService {
         return employeeRepository.findAll(); 
     }
 
+    /**
+     * 従業員情報を取得
+     */
+    public Employee showDetail(Integer id) {
+        return employeeRepository.load(id);
+    }
+
+    /**
+     * 従業員情報を更新
+     */
+    public void update(Employee employee) {
+        employeeRepository.update(employee); 
+    }
+    
 }
